@@ -1,0 +1,15 @@
+{
+  "direction": "column",
+  "sizes": [
+    "250px",
+    "1fr"
+  ],
+  "panes": [
+    {
+      "name": "sidebar"
+    },
+    {
+      "name": "main"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "direction": "row",
+  "sizes": [
+    "32px",
+    "1fr"
+  ],
+  "panes": [
+    {
+      "name": "toolbar",
+      "resizable": false
+    },
+    {
+      "direction": "column",
+      "sizes": [
+        "200px",
+        "1fr"
+      ],
+      "panes": [
+        {
+          "name": "sidebar"
+        },
+        {
+          "minSize": 100,
+          "direction": "row",
+          "sizes": [
+            "1fr",
+            "1fr"
+          ],
+          "panes": [
+            {
+              "name": "main",
+              "minSize": 100
+            },
+            {
+              "name": "detail",
+              "minSize": 100
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

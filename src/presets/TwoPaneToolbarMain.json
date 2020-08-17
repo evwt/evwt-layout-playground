@@ -1,0 +1,16 @@
+{
+  "direction": "row",
+  "sizes": [
+    "32px",
+    "1fr"
+  ],
+  "panes": [
+    {
+      "name": "toolbar",
+      "resizable": false
+    },
+    {
+      "name": "main"
+    }
+  ]
+}

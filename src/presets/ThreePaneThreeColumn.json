@@ -1,0 +1,22 @@
+{
+  "direction": "column",
+  "sizes": [
+    "80px",
+    "200px",
+    "1fr"
+  ],
+  "panes": [
+    {
+      "name": "activities",
+      "resizable": false
+    },
+    {
+      "name": "sidebar"
+    },
+    {
+      "name": "main",
+      "minSize": 100
+    }
+  ]
+}
+
