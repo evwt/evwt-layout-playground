@@ -2,7 +2,7 @@
   <ev-layout :layout="pane">
     <template v-slot:playground-header>
       <div class="flex-space d-flex flex-grow flex-center flex-middle">
-        <div class="editor-header m-w-xxs">
+        <div class="editor-header m-w-xxs p-w-xs p-e-xs">
           <select v-model="selected" class="w-100 p-xxs m-s-xs m-n-xs">
             <option value="TwoPaneSidebarMain">
               2-pane – Sidebar/Main
@@ -242,6 +242,7 @@ a {
 
 .editor-header {
   text-align: center;
+  background-color: orange;
 }
 
 .ev-pane-playground-editor > .ev-layout-pane > div {
