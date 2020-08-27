@@ -28,8 +28,8 @@
 </template>
 
 <script>
-import { EvLayout } from 'evwt-components';
-import { flattenDeep, capitalize } from 'lodash';
+import EvLayout from 'evwt.evlayout';
+import { capitalize } from 'lodash';
 
 export default {
   components: {

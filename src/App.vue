@@ -37,7 +37,15 @@
           </a>
         </div>
 
-        <div />
+        <div class="p-e-xs">
+          <a href="https://evwt.net/#/EvLayout" target="_blank">
+            Documentation
+          </a>
+          •
+          <a href="https://github.com/evwt/evwt" target="_blank">
+            Github
+          </a>
+        </div>
       </div>
     </template>
     <template v-slot:playground-editor>
@@ -57,7 +65,7 @@
 
 <script>
 import { jsonQueryStringifyObjectBare, jsonQueryParseObjectBare } from 'json-query-string';
-import { EvLayout } from 'evwt-components';
+import EvLayout from 'evwt.evlayout';
 import Editor from '@/components/Editor';
 import Preview from '@/components/Preview';
 import TwoPaneSidebarMain from '@/presets/TwoPaneSidebarMain.json';
@@ -203,8 +211,11 @@ a {
 }
 
 .ev-pane-playground-header {
-  background: #222;
-  color: #eee;
+  background: #000;
+  color: #fff;
+  letter-spacing: 0.6px;
+  font-weight: 400;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   .ev-layout-pane {
     display: flex;
