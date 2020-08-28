@@ -3685,10 +3685,12 @@ evp_bytestokey@^1.0.0, evp_bytestokey@^1.0.3:
     md5.js "^1.3.4"
     safe-buffer "^5.1.1"
 
-evwt.evlayout@0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/evwt.evlayout/-/evwt.evlayout-0.1.1.tgz#b067eaab48072b4fc40c41dfc2b6d3b451893e7d"
-  integrity sha512-ibdDjfs4K08pzHX5HrOHJyBx1rRlRCnhSl3ik8A89n1Vx1jUMDBp7dx53HYVs0gJboG9jvCEFlL2r0uur/G6Ew==
+evwt.evlayout@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/evwt.evlayout/-/evwt.evlayout-0.1.2.tgz#bc86ac642a2a700b20581ac1606fb7ee61fdbd4e"
+  integrity sha512-k92hkTeikKc4HAOUlXd09c6G1x+8mDniTVo5xWix4EyD8JIwccankM/7S25zWR2QfIvghHIE2p0AwJKBE4t/EQ==
+  dependencies:
+    lodash "^4.17.20"
 
 execa@^0.8.0:
   version "0.8.0"
