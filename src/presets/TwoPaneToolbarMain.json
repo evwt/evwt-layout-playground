@@ -1,4 +1,5 @@
 {
+  "name": "app",
   "direction": "row",
   "sizes": [
     "32px",
