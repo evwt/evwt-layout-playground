@@ -147,6 +147,7 @@ body .vdr {
   border-radius: 5px;
   box-shadow: 0 20px 1em #999;
   overflow: hidden;
+  user-select: none;
 }
 
 .window-header {
